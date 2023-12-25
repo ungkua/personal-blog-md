@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Blog() {
     const postMetadata = getPostMetadata();
-    const postPreviews = postMetadata.map((post) => (
+    const postPreviews = postMetadata.map(post => (
         <div className="py-2">
             <div>
                 <Link href={`/blog/posts/${post.slug}`}>

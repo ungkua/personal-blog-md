@@ -16,7 +16,7 @@ export default function About() {
                     </p>
                     <p className="py-3">
                         my interest are running, coffee, computers and traveling among
-                        many other things. music taste includes classical and 'modern' classical 
+                        many other things. music taste includes classical and &lsquo;modern&rsquo; classical 
                         musics.
                     </p>
                 </div>
@@ -24,7 +24,7 @@ export default function About() {
                     <Disclosure>
                         <Disclosure.Button>
                             <div className='flex items-center justify-center'>
-                                <a className='underline underline-offset-4'>countries i've been to</a>
+                                <a className='underline underline-offset-4'>countries i&apos;ve been to</a>
                             </div>
                         </Disclosure.Button>
                         <Disclosure.Panel>
